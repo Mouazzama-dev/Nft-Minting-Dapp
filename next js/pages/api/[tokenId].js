@@ -1,7 +1,4 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-
-import { Description } from "@ethersproject/properties";
-
 export default function handler(req, res) {
   const tokenId = req.query.tokenId;
 
